@@ -1,0 +1,10 @@
+streamlit
+python-dotenv
+pandas
+plotly
+pypdf
+scikit-learn
+transformers
+torch
+requests
+Pillow

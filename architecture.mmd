@@ -1,0 +1,29 @@
+
+flowchart TD
+    A["User"] --> B["Streamlit Web Application"]
+
+    B --> C["Document Analyzer"]
+    B --> D["AI Writing Studio"]
+    B --> E["AI Text-to-SQL"]
+    B --> F["AI Image Prompt Builder"]
+    B --> G["Text Intelligence"]
+    B --> H["RAG Document Q&A"]
+    B --> I["Model Evaluation Lab"]
+    B --> J["System Health Dashboard"]
+
+    D --> K["Ollama Local API"]
+    G --> K
+    H --> K
+    I --> K
+    E --> K
+
+    E --> L[("SQLite Database")]
+    H --> M["PDF Text Extraction"]
+    M --> N["Keyword-Based Retrieval"]
+    N --> K
+
+    C --> O["Text Extraction and Analysis"]
+    F --> P["Prompt Configuration"]
+    J --> Q["Health Checks"]
+
+    K --> R["Llama 3.2 3B"]
